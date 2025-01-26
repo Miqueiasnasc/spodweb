@@ -1,0 +1,16 @@
+header{
+    text-align: center;
+    background-color: red;
+}
+
+input[type=submit ]{
+    width: 1600px;
+    height: 70px;
+    background-color: palevioletred;
+}
+footer{
+    text-align: center;
+    width: 1600px;
+    height: 70px;
+    background-color: rgb(237, 101, 241);
+}

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> flexbox froggy</h1>
+     <!-- justify-content, que alinha itens horizontalmente e aceita os seguintes valores:
+   flex-start: Itens se alinham à esquerda do container.
+    flex-end: Itens se alinham à direita do container.
+    center: Itens se alinham no centro do container.
+    space-between: Itens se alinham com distância igual entre eles.
+    space-around: Itens se alinham com distância igual em torno deles.  -->
+
+    <h2>exercicio 1:</h2>
+    <p>r: justify-content: flex-end;</p>
+    <h2>ex2</h2>
+    <p>justify-content: center: space-between</p>
+    <h2>ex 3</h2>
+    <p>justify-content: space-around;</p>
+    <h2>ex4</h2>
+    <p>justify-content: space-between;</p>
+
+
+    <!--align-item. Essa propriedade CSS alinha os itens verticalmente e aceita os seguintes valores:
+    flex-start: Itens se alinham na parte de cima do container.
+    flex-end: Itens se alinham na parte de baixo do container.
+    center: Itens se alinham no centro vertical do container.
+    baseline: Items se alinham na linha da base do container.
+    stretch: Itens se esticam para preencher o container.-->
+
+    <h2>ex5</h2>
+    <p>align-items: flex-end</p>
+    <h2>ex6</h2>
+    <p>justify-content: center; align-items: center;</p>
+    <h2>ex7</h2>
+    <p>justify-content: space-around; align-items: flex-end</p>
+
+
+    <!-- flex-direction. Esta propriedade CSS define a direção em que os itens são posicionados no container 
+    e aceita os seguintes valores:
+    row: Itens são posicionados na mesma direção do texto.
+    row-reverse: Itens são posicionados na direção oposta à do texto.
+    column: Itens são posicionados de cima para baixo.
+    column-reverse: Itens são posicionados de baixo para cima.-->
+    <h2>ex8</h2>
+    <p>flex-direction: row-reverse;</p>
+    <h2>ex9</h2>
+    <p>flex-direction: column;</p>
+    <h2>ex10</h2>
+    <p> flex-direction: row-reverse; justify-content: flex-end</p>
+    <h2>ex11</h2>
+    <p>flex-direction: column; justify-content: flex-end</p>
+    <h2>ex12</h2>
+    <p>flex-direction: column-reverse; justify-content: space-between;</p>
+    <h2>ex13</h2>
+    <p>flex-direction: row-reverse; justify-content: center; align-items: flex-end</p>
+   
+    <!--Às vezes, reverter a ordem de uma coluna ou de um container não é suficiente. Nesses casos,
+     podemos aplicar a propriedade order para itens individuais. Por padrão, itens tem um valor de 0,
+     mas nós podemos usar essa propriedade para alterar para um valor inteiro positivo ou negativo.
+    Use a propriedade order para reordenar os sapos de acordo com suas vitórias-régias.-->
+    <h2>ex14</h2>
+    <p>order: -2;</p>    
+
+    <!--Another property you can apply to individual items is align-self.
+     This property accepts the same values as align-items and its value for the specific item.-->
+    <h2>ex15</h2>
+    <p>order -2</p>
+    <h2>align-self: flex-end;</h2>
+    <h2>ex16</h2>
+    <p>order: 2; align-self: flex-end;</p>[
+
+    <!--. Spread them out using the flex-wrap property, which accepts the following values:
+    nowrap: Every item is fit to a single line.
+    wrap: Items wrap around to additional lines.
+    wrap-reverse: Items wrap around to additional lines in reverse-->
+    <h2>ex17</h2>
+    <p>flex-wrap: wrap;</p>
+    <h2>ex18</h2>
+    <p>flex-direction: column; flex-wrap: wrap</p>
+    <h2>ex19</h2>
+    <p>flex-flow: column wrap; </p>
+    <!--The frogs are spread all over the pond, but the lilypads are bunched at the top. You can use align-content
+     to set how multiple lines are spaced apart from each other. This property takes the following values:
+    flex-start: Lines are packed at the top of the container.
+    flex-end: Lines are packed at the bottom of the container.
+    center: Lines are packed at the vertical center of the container.
+    space-between: Lines display with equal spacing between them.
+    space-around: Lines display with equal spacing around them.
+    stretch: Lines are stretched to fit the container.
+    This can be confusing, but align-content determines the spacing between lines, while align-items determines how the 
+    items as a whole are aligned within the container. When there is only one line, align-content has no effect.-->
+    <h2>ex20</h2>
+    <p>flex-flow: wrap column;</p>
+    <!--Os sapos estão espalhados por toda a lagoa, mas as vitórias-régias estão agrupadas no topo. 
+    Você pode usar align-content para definir como múltiplas linhas devem ser espaçadas uma das outras.
+     Essa propriedade recebe os seguintes valores:
+flex-start: Linhas são agrupadas no topo do container.
+flex-end: Linhas são agrupadas no fundo do container.
+center:Linhas são agrupadas no centro vertical do container.
+space-between: Linhas são posicionadas com espaço igual entre elas.
+space-around: Linhas são posicionadas com espaço igual em torno delas.
+stretch: Linhas se esticam para preencher o container.
+Isso pode ser confuso, mas align-content determina o espaçamento entre linhas, enquanto align-items determina como as linhas como um todo são alinhadas dentro do container. Quando há só uma linha, align-content não tem nenhum efeito.-->
+    <h2>ex21</h2>
+    <p>align-content: flex-start</p>
+    <h2>ex22</h2>
+    <p>align-content: flex-end;</p>
+    <h2>ex23</h2>
+    <p>flex-direction: column-reverse; align-content: center;</p>
+    <h2>ex24</h2>
+    <p>flex-flow:column-reverse wrap-reverse;
+        justify-content:center;
+        align-content:space-between;</p>
+
+    <h1> grid css</h1>
+    <h2>Level 1</h2>
+grid-column-start: 3;
+
+<h2>Level 2</h2>
+grid-column-start: 5;
+
+<h2>Level 3</h2>
+grid-colunn-end: 4;
+
+<h2>Level 4</h2>
+grid-column-end: 2;
+
+<h2>Level 5</h2>
+grid-column-end: -2;
+
+<h2>Level 6</h2>
+grid-column-start: -3;
+
+<h2>Level 7</h2>
+grid-column-end: span 2;
+
+<h2>Level 8</h2>
+grid-column-end: span 5;
+
+<h2>Level 9</h2>
+grid-column-start: span 3;
+
+<h2>Level 10</h2>
+grid-column: 4 / 6;
+
+<h2>Level 11</h2>
+grid-column: 2 / 5;
+
+<h2>Level 12</h2>
+grid-row-start: 3;
+
+<h2>Level 13</h2>
+grid-row: 3 / 6;
+
+<h2>Level 14</h2>
+grid-column: 2 / 3; grid-row: 5 / 6;
+
+<h2>Level 15</h2>
+grid-column: 2 / 6; grid-row: 1 / 6;
+
+<h2>Level 16</h2>
+grid-area: 1 / 2 / 4 / 6;
+
+<h2>Level 17</h2>
+grid-area: 2 / 3 / 5 / 6;
+
+<h2>Level 18</h2>
+order: 5;
+
+<h2>Level 19</h2>
+order: -1;
+
+<h2>Level 20</h2>
+grid-template-columns: 50% 10% 25% 5% 10%;
+
+<h2>Level 21</h2>
+grid-template-columns: repeat(8, 12.5%);
+
+<h2>Level 22</h2>
+grid-template-columns: 100px 3em 40%;
+
+<h2>Level 23</h2>
+grid-template-columns: 1fr 5fr;
+
+<h2>Level 24</h2>
+grid-template-columns: 50px 1fr 1fr 1fr 50px;
+
+<h2>Level 25</h2>
+grid-template-columns: 75px 3fr 2fr;
+
+<h2>Level 26</h2>
+
+grid-template-rows: repeat(4,12.5px) 1fr
+
+
+</body>
+</html>

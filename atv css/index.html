@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header >
+        <h1>formulario de contato</h1>
+    </header>
+
+    <form>
+        <label for="nome"> nome e sobrenome</label><br>
+        <input id="nome" type="text" placeholder ="digite seu nome e sobrenome">    
+        <br>
+        <label for="email">email</label><br>
+        <input id="email" type="email" placeholder="digite seu email"><br>
+        <label for="telefone">telefone</label><br>
+        <input type="tel" id="telefone" placeholder="digite seu telefone">
+        <br>
+        <label for="mensagem">mensagem</label><br>
+        <textarea id="mensagem" placeholder="digite sua mensagem"></textarea>
+        <br><br>
+
+        <div class="contato"> 
+        <fieldset>
+        <legend>
+        <b> como prefere o nosso contato</b><br>
+        <input type="radio" id="email" name="contato" value="email">
+        <label for="email">email</label><br>
+        <input type="radio" id="whats" name="contato" value="whats">
+        <label for="whats">whats</label><br>
+        <input type="radio" id="telefone" name="contato" value="telefone">
+        <label for="telefone">telefone</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <b>qual horario prefere ser atendido?</b><br>
+                <select>
+                    <option value="manha">manha</option>
+                    <option value =" tarde">tarde</option>
+                    <option value="noite">noite</option>
+                </select>
+            </legend>
+        </fieldset>
+    </div>
+        <br>
+        <input type="checkbox" name="novidades" id="novi">
+        <label for="novi">gostaria de receberr nossas novidades por email</label><br><br><br>
+        
+        <input type="submit" value="enviar formulario"   > 
+    </form>
+    <br><br>
+    <table border="1"   >
+        <tr style="background-color: palevioletred;">
+            <td >dia</td>
+            <td >horarios</td>
+        </tr>
+        <tr>
+            <td>segunda</td>
+            <td>8-20</td>
+        </tr>
+        <tr>
+            <td>terça</td>
+            <td>8-20</td>
+        </tr>
+        <tr>
+            <td>quarta</td>
+            <td>8-20</td>
+        </tr>
+        <tr>
+            <td>quinta</td>
+            <td>8-20</td>
+        </tr>
+        <tr>
+            <td>sexta</td>
+            <td>8-20</td>
+        </tr>
+    </table>
+
+    <footer>desenvolvido por miqueias</footer>
+   
+</body>
+</html>
