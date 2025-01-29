@@ -1,0 +1,111 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Layout */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+}
+
+header .container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+/* Seção Hero */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #fff;
+    margin: 1rem;
+    border: 1px solid #ddd;
+}
+
+.feature-image {
+    width: 30%;
+    height: 150px;
+    background: repeating-linear-gradient(45deg, #ddd, #ddd 10px, #ccc 10px, #ccc 20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.tagline {
+    width: 60%;
+    padding: 1rem;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.features p {
+    width: 45%;
+    background-color: #f4f4f4;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+/* Grid de funcionalidades */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.feature-box {
+    background-color: #fff;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+    background-color: #fff;
+    padding: 1rem;
+    border-top: 2px solid #ddd;
+    margin-top: 2rem;
+}
