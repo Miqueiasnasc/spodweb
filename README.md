@@ -1,7 +1,7 @@
  CaminhoesMVC - PHP (Laravel & Breeze)
 
 <p align="center">
-  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftenor.com%2Fview%2Fcaminh%25C3%25A3o-caminh%25C3%25B5es-caminhoes-caminhao-daf-gif-24132173&psig=AOvVaw3jKVW2dLg_tkg0wdXOUGyU&ust=1764080668392000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOi9wd7-ipEDFQAAAAAdAAAAABAE />
+  <img src= <img src="https://share.google/images/Jpmvx7EYnRT9Qd92R" /> />
 </p>
 
 ## Para Rodar
