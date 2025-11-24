@@ -21,8 +21,11 @@ php artinsan serve
 ## Conta fictícia para acesso local:
 
 
+
 - *E-Mail*: adm@gmail.com
+  
 - *Senha*: 12345678
+  
 
 ## Tutorial utilizado:
 O tutorial utilziado para o desenvolvimento deste projeto se encontra nesta [Playlist](https://www.youtube.com/watch?v=nBJ8b3Guvxg&list=PLiPhybDsJtYrz31ZaMtDiQ5LSRciA-SZP&pp=gAQB):
